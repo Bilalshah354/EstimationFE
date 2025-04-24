@@ -1,0 +1,138 @@
+.counter-section {
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  gap: 80px;
+  padding: 50px 50px;
+  width: 100%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.counter-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 85%;
+  height: 1px;
+  background-color: #161616;
+}
+
+.counter-box {
+  font-size: 80px;
+  font-weight: bold;
+  padding: 35px;
+  align-items: center;
+}
+
+.line {
+  margin-top: 3px;
+  width: 1px;
+  height: 200px;
+  background-color: #161616;
+}
+
+.counter-box span {
+  color: #000;
+}
+
+.counter-label {
+ width: 40%;
+ justify-self: end;
+  font-size: 16px;
+  color: #fc5a11 !important;
+  margin-top: 8px;
+  display: block;
+}
+
+.counter-labell{
+
+    width: 60%;
+    justify-self: end;
+     font-size: 16px;
+     color: #fc5a11 !important;
+     margin-top: 8px;
+     display: block;
+  
+}
+
+
+@media (max-width: 1024px) {
+  .counter-section {
+    gap: 40px;
+  }
+
+  .counter-box {
+    font-size: 70px;
+    font-weight: bold;
+    padding: 30px;
+  }
+
+  .counter-label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .counter-section {
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 30px 20px;
+  }
+
+  .counter-box {
+    font-size: 60px;
+    padding: 15px;
+  }
+
+  .counter-label {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .counter-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 20px 10px;
+  }
+
+  .counter-box {
+    font-size: 73.6px;
+    padding: 10px;
+  }
+
+  .counter-label {
+    font-size: 14.72px;
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .counter-labell{
+
+    width: 100%;
+    justify-self: end;
+     font-size: 16px;
+     color: #fc5a11 !important;
+     margin-top: 8px;
+     display: block;
+  
+}
+  
+
+  .line {
+    display: none;
+  }
+} 

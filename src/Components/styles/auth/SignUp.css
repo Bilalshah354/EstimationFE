@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Space Grotesk", "Roboto";
+  }
+  
+  .signup-container {
+    display: flex;
+    padding: 30px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 950px;
+  }
+  
+  .signup-form-section{
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 50%; */
+    width: 672px;
+  }
+  
+  .signup-form-section h2 {
+    font-family: "Space Grotesk";
+    font-weight: 600;
+    margin-bottom: 3rem;
+    line-height: 100%;
+    letter-spacing: 1%;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 378px;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #12130D;
+    line-height: 100%;
+    vertical-align: middle;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .signup-btn {
+    background-color: #f15a29;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-weight: 400;
+    vertical-align: middle;
+    letter-spacing: 1%;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .other-section {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    color: #294957;
+    font-size: 16px;
+  }
+  
+ 
+  .google-btn,
+  .apple-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .signup-image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-image-section img {
+    width: 672px;
+    height: 886px;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+  

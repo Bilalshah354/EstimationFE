@@ -1,0 +1,173 @@
+.why-section {
+  padding: 3rem 1.5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.why-container {
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+}
+
+.why-left,
+.why-right {
+  width: 50%;
+  padding: 1rem;
+}
+
+.why-left {
+  margin-bottom: 1.5rem;
+}
+
+.why-heading {
+  font-family: "Space Grotesk";
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #161616;
+}
+
+.why-right {
+  color: #333;
+}
+
+.why-text {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.why-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.why-list li {
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: #FF6900;
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+@media (max-width: 1024px) {
+  .why-section {
+    padding: 2rem 1rem;
+  }
+
+  .why-container {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .why-left,
+  .why-right {
+    width: 50%;
+    padding: 0.75rem;
+  }
+
+  .why-heading {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  .why-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+  }
+
+  .highlight {
+    font-size: 16px;
+  }
+
+  .why-list li {
+    font-size: 15px;
+    margin-bottom: 0.4rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .why-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .why-container {
+    gap: 1rem;
+  }
+
+  .why-left,
+  .why-right {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .why-heading {
+    font-size: 40px;
+    line-height: 1.2;
+    
+  }
+
+  .why-text {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    text-align: justify;
+  }
+
+  .highlight {
+    font-size: 15px;
+  }
+
+  .why-list li {
+    font-size: 14px;
+    margin-bottom: 0.4rem;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .why-section {
+    padding: 1rem 0.75rem;
+  }
+
+  .why-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .why-left,
+  .why-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .why-heading {
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .why-text {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .highlight {
+    font-size: 16px;
+  }
+
+  .why-list li {
+    font-size: 13.5px;
+    margin-bottom: 0.35rem;
+  }
+}

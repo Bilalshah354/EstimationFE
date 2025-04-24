@@ -1,0 +1,44 @@
+.contact-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 44px;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
+   
+  .contact-right {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  .contact-subtitle {
+    color: #FF6900;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .contact-title {
+    font-family: "Space Grotesk";
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 100%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #161616;
+  }
+  
+  .contact-description {
+    font-size: 16px;
+    color:  #000000;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 30px;
+  }
+  

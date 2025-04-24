@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.software-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  border-top: 1px solid #161616;
+  border-bottom: 1px solid #161616;
+  padding: 10px 0px;
+}
+.software-text{
+width: 40%;
+}
+
+
+.software-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  margin-top: 2.5rem;
+}
+
+.software-heading h1 {
+  font-family: "Space Grotesk";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.software-heading h1 span {
+  color: #fc5a11;
+}
+
+.software-linee {
+  width: 1px;
+  height: 160px;
+  background-color: #161616;
+}
+
+.software-image-row {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.software-img {
+  width: 210px;
+  height: 140px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .software-section {
+      gap: 30px;
+      padding: 10px 10px;
+    }
+  
+    .software-heading {
+      padding: 20px;
+      margin-top: 2rem;
+    }
+  
+    .software-heading h1 {
+      font-size: 22px;
+    }
+  
+    .software-linee {
+      height: 120px;
+    }
+  
+    .software-image-row {
+      gap: 60px;
+    }
+  
+    .software-img {
+      width: 160px;
+      height: 110px;
+    }
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .software-section {
+      gap: 20px;
+      padding: 10px 10px;
+    }
+  
+    .software-heading {
+      padding: 15px;
+      margin-top: 1.5rem;
+      text-align: center;
+    }
+  
+    .software-heading h1 {
+      font-size: 18px;
+    }
+  
+ 
+  
+    .software-image-row {
+      gap: 25px;
+    }
+  
+    .software-img {
+      width: 140px;
+      height: 100px;
+      margin: 0 auto;
+    }
+  }
+  
+
+  @media (max-width: 425px) {
+    .software-section {
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px 10px;
+    }
+  
+    .software-heading {
+      padding: 10px;
+      margin-top: 1rem;
+      text-align: center;
+    }
+  
+    .software-heading h1 {
+      display: inline-block;
+      justify-content: center;
+      font-size: 18px;
+      line-height: 1.3;
+      white-space: nowrap; 
+     
+    }
+
+    .software-text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; 
+    }
+  
+    .software-linee {
+      display: none;
+    }
+  
+    .software-image-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .software-image-row .software-img {
+      width: 150.48px;
+      height: 79px;
+    }
+  }
+  
