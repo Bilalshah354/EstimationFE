@@ -1,4 +1,4 @@
-/* .otp-container {
+.otp-container {
     display: flex;
     height: 100vh;
     background-color: #fff;
@@ -64,4 +64,4 @@
   .otp-image-section img {
     max-width: 80%;
     height: auto;
-  } */
+  }

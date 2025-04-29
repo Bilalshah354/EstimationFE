@@ -1,44 +1,137 @@
 .contact-hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 80px 44px;
-    background-color: #fff;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 44px;
+  background-color: #fff;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-width: 40%;
+}
+
+.contact-left {
+  max-width: 60%;
+}
+
+.contact-subtitle {
+  color: #ff6900;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-family: "Space Grotesk";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 100%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #161616;
+}
+
+.contact-description {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  text-align: left;
+  padding: 30px;
+}
+
+@media (max-width: 1024px) {
+  .contact-hero {
+    padding: 60px 32px;
   }
-   
+
+  .contact-left {
+    max-width: 60%;
+  }
+
   .contact-right {
-    
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    max-width: 40%;
   }
-  
+
   .contact-subtitle {
-    color: #FF6900;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 22px;
   }
-  
+
   .contact-title {
-    font-family: "Space Grotesk";
-    font-size: 72px;
-    font-weight: 500;
-    line-height: 100%;
-    vertical-align: middle;
-    text-transform: uppercase;
-    color: #161616;
+    font-size: 58px;
   }
-  
+
   .contact-description {
-    font-size: 16px;
-    color:  #000000;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0px;
-    vertical-align: middle;
-    text-align: left;
-    padding: 30px;
+    font-size: 15px;
+    padding: 20px 0;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .contact-hero {
+    padding: 40px 20px;
+  }
+
+  .contact-left {
+    max-width: 60%;
+  }
+
+  .contact-right {
+    max-width: 40%;
+  }
+
+  .contact-subtitle {
+    font-size: 20px;
+  }
+
+  .contact-title {
+    font-size: 44px;
+  }
+
+  .contact-description {
+    font-size: 13px;
+    padding: 16px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-hero {
+    padding: 30px 16px;
+  }
+
+  .contact-left,
+  .contact-right {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .contact-subtitle {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .contact-title {
+    font-size: 36px;
+    line-height: 110%;
+    text-align: justify;
+  }
+
+  .contact-description {
+    font-size: 14px;
+    padding: 12px 0;
+    line-height: 140%;
+    width: 100%;
+  }
+
+  .contact-right {
+    margin-top: 15px;
+  }
+}

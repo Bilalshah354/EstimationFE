@@ -1,40 +1,3 @@
-// import React from "react";
-// import "../styles/Auth/ForgotPassword.css";
-
-// const ForgotPassword = () => {
-//   return (
-//     <>
-//       <div className="forgot-container">
-//         <div className="form-section">
-//           <h2>Reset Password</h2>
-//           <p>Enter your email address and we’ll send you a link to reset your password.</p>
-//           <form>
-//             <div className="input-group">
-//               <label>Email</label>
-//               <input type="email" placeholder="Example@email.com" required />
-//             </div>
-
-//             <button type="submit" className="signup-btn">
-//               Reset Password
-//             </button>
-//           </form>
-//         </div>
-
-//         <div className="forgot-image-section">
-//           <img
-//             src="/public/images/Signup image.png"
-//             alt="Design plan with color swatches"
-//           />
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default ForgotPassword;
-
-
-
 import React, { useState } from "react";
 import "../styles/Auth/ForgotPassword.css";
 import { sendOtpToEmail }  from "../../Services/Api/authApi"; 
@@ -74,7 +37,7 @@ const ForgotPassword = () => {
             <button type="submit" className="signup-btn" disabled={loading}>
               {loading ? "Sending..." : "Reset Password"}
             </button>
-            {/* {message && <p className="feedback-message">{message}</p>} */}
+        
           </form>
         </div>
         <div className="forgot-image-section">

@@ -53,7 +53,8 @@
   background-color: white;
   padding: 10px;
   border: 1px solid #ddd;
-  min-width: 170px;
+  min-width: 210px;
+  
   z-index: 100;
 }
 
@@ -63,9 +64,10 @@
 
 .dropdown-content a {
   display: block;
-  padding: 8px 0;
+  padding: 8px 5px;
   color: #000;
   text-decoration: none;
+
 }
 
 .login-btn {
@@ -78,7 +80,7 @@
   text-decoration: uppercase;
   border: 1px solid #161616;
   cursor: pointer;
-  color: #161616;
+  color: #fff;
 }
 
 .menu-toggle {
@@ -95,8 +97,6 @@
 .desktop-only {
   display: inline-block;
 }
-
-
 
 @media screen and (max-width: 786px) {
   .logo {
@@ -117,9 +117,6 @@
     padding: 6px 12px;
   }
 }
-
-
-
 
 @media screen and (max-width: 425px) {
   .nav-links {

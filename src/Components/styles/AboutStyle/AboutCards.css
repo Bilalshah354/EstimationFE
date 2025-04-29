@@ -1,0 +1,231 @@
+.subcontractor-section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.subcontractor-title {
+  font-family: "Space Grotesk";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subcontractor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.subcontractor-card {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.subcontractor-img {
+  width: 216px;
+  height: 264px;
+  object-fit: cover;
+}
+
+.subcontractor-content {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  text-align: left;
+  width: 60%;
+  gap: 7rem;
+}
+
+.subb {
+  display: flex;
+  flex-direction: column;
+}
+
+.subcontractor-content h3 {
+  font-family: "Space Grotesk";
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  margin: 0 0 5px;
+  font-weight: 500;
+}
+
+.subcontractor-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 0 0 10px;
+  color: #161616;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group button {
+  color: Black;
+  background-color: White;
+  border: 1px solid black;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .subcontractor-section {
+    padding: 30px 19px;
+  }
+
+  .subcontractor-title {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .subcontractor-container {
+    gap: 25px;
+  }
+
+  .subcontractor-card {
+    width: 48%;
+  }
+
+  .subcontractor-img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .subcontractor-content {
+    padding-left: 12px;
+    gap: 5rem;
+    width: 100%;
+  }
+
+  .subcontractor-content h3 {
+    font-size: 22px;
+  }
+
+  .subcontractor-content p {
+    font-size: 15px;
+  }
+
+  .button-group {
+    gap: 8px;
+  }
+
+  .button-group button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subcontractor-section {
+    padding: 20px 19px;
+  }
+
+  .subcontractor-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .subcontractor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .subcontractor-card {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .subcontractor-img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .subcontractor-content {
+    padding-left: 10px;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .subcontractor-content h3 {
+    font-size: 16px;
+  }
+
+  .subcontractor-content p {
+    font-size: 13px;
+  }
+
+  .button-group {
+    gap: 6px;
+  }
+
+  .button-group button {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .subcontractor-section {
+    padding: 15px;
+  }
+
+  .subcontractor-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .subcontractor-container {
+    gap: 15px;
+  }
+
+  .subcontractor-card {
+    width: 100%;
+  }
+
+  .subcontractor-img {
+    width: 110px;
+    height: 120px;
+  }
+
+  .subcontractor-content {
+    padding-left: 15px;
+    gap: 1.2rem;
+  }
+
+  .subcontractor-content h3 {
+    font-size: 16px;
+  }
+
+  .subcontractor-content p {
+    font-size: 12px;
+  }
+
+  .button-group button {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

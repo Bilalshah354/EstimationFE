@@ -13,18 +13,18 @@ const BeginSection = () => {
             Our specialized estimation services are highly regarded by leading
             builders and companies in the industry.
           </p>
-        
+
           <div className="steps">
             <div className="step">
               <span className="begin-number">01</span>
               <p>SUBMIT YOUR PLANS</p>
             </div>
-           
+
             <div className="step">
               <span className="begin-number">02</span>
               <p>WE WILL PROVIDE YOU WITH A QUOTE FOR OUR SERVICES.</p>
             </div>
-            
+
             <div className="step">
               <span className="begin-number">03</span>
               <p>WE PROVIDE AND DELIVER YOUR COST ESTIMATE.</p>

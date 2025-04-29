@@ -19,18 +19,18 @@ const Navbar = () => {
         </button>
 
         <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
-          <a href="#">ABOUT US</a>
+          <a href="/about">ABOUT US</a>
           <div className="dropdown">
             <a href="#">
               OUR SERVICES <HiChevronDown />
             </a>
             <div className="dropdown-content">
-              <Link to="/residential-estimating">Residential Estimating</Link>
+              <Link to="/residential-estimating">RESIDENTIAL ESTIMATING</Link>
               <a href="#">Service 2</a>
               <a href="#">Service 3</a>
             </div>
           </div>
-          <a href="#">BLOGS</a>
+          <a href="/blog">BLOGS</a>
           <a href="/contactus">CONTACT US</a>
 
           <button className="login-btn mobile-only">LOGIN / SIGNUP</button>

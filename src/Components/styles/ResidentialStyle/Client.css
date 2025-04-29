@@ -87,7 +87,7 @@
 
   .testimonial-bg-shape {
     position: absolute;
-    /* background-color: #f15a24; */
+    
     z-index: -1;
     opacity: 0.25;
     border-radius: 40% 60% 70% 30% / 30% 30% 70% 70%;
@@ -95,7 +95,7 @@
   }
   
   .testimonial-bg-shape-1 {
-    /* background-image: url("public/images/Vector 6.png"); */
+    
     width: 145%;
     height: 140%;
     bottom: -30px;
@@ -103,7 +103,7 @@
   }
   
   .testimonial-bg-shape-2 {
-    /* background-image: url("public/images/Vector 8.png"); */
+  
     background-size: cover;
     width: 160%;
     height: 160%;
