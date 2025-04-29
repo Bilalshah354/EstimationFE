@@ -37,9 +37,6 @@ export const registerUser = async (fullName, email, password) => {
   }
 };
 
-
-
-
 export const sendOtpToEmail = async (email) => {
   const res = await fetch(`${BASE_URL}/auth/send-otp`, {
     method: 'POST',
