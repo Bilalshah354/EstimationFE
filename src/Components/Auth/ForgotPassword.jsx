@@ -1,4 +1,8 @@
+// <<<<<<< estimators-UI
+// import React, { useState } from "react";
+// =======
 import React, { useEffect, useState } from "react";
+// >>>>>>> bilaldev
 import "../styles/Auth/ForgotPassword.css";
 import { sendOtpToEmail } from "../../Services/Api/authApi";
 import { useNavigate } from "react-router-dom";
@@ -53,14 +57,18 @@ const ForgotPassword = () => {
             <button type="submit" className="signup-btn" disabled={loading}>
               {loading ? "Sending..." : "Reset Password"}
             </button>
-            <button
-              type="button"
-              className="cancel-btn"
-              onClick={() => navigate(-1)} // 👈 Cancel goes back
-              style={{ marginTop: "10px", backgroundColor: "#ccc", color: "#333" }}
-            >
-              Cancel
-            </button>
+// <<<<<<< estimators-UI
+        
+// // =======
+//             <button
+//               type="button"
+//               className="cancel-btn"
+//               onClick={() => navigate(-1)} // 👈 Cancel goes back
+//               style={{ marginTop: "10px", backgroundColor: "#ccc", color: "#333" }}
+//             >
+//               Cancel
+//             </button>
+// >>>>>>> bilaldev
           </form>
         </div>
         <div className="forgot-image-section">

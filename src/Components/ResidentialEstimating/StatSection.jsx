@@ -19,7 +19,7 @@ function Counter({ value, suffix }) {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true;
           let start = 0;
-          const duration = 2000; // in ms
+          const duration = 2000; 
           const stepTime = 20;
           const steps = duration / stepTime;
           const increment = value / steps;

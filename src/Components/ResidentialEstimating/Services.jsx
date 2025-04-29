@@ -7,7 +7,7 @@ const estimationServices = [
     title: "CONCRETE",
     description:
       "Accurate cost estimates for residential, commercial, and industrial projects—built for confident bidding.",
-    image: "public/images/residential estimating.png"
+    image: "public/images/residential estimating.png",
   },
   { title: "MASONRY" },
   { title: "METAL" },
@@ -19,7 +19,7 @@ const estimationServices = [
   { title: "ELECTRICAL" },
   { title: "EARTHWORK" },
   { title: "CIVIL/SITEWORKS/LANDSCAPING" },
-  { title: "WOOD, PLASTIC AND COMP." }
+  { title: "WOOD, PLASTIC AND COMP." },
 ];
 
 const ResidentialEstimation = () => {
@@ -27,8 +27,10 @@ const ResidentialEstimation = () => {
     <div className="estimation-container">
       <div className="estimation-sidebar">
         <h2 className="estimation-heading">
-          SERVICES WE<br />
-          PROVIDING IN<br />
+          SERVICES WE
+          <br />
+          PROVIDING IN
+          <br />
           <span className="estimation-highlight">RESIDENTIAL</span>{" "}
           <span className="estimation-normal">ESTIMATION</span>
           <span className="estimation-subtext">(For Subcontractors)</span>

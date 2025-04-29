@@ -83,6 +83,8 @@
     font-size: 20px;
     cursor: pointer;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
   }
   
   .other-section {
@@ -111,6 +113,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    color: black;
   }
   
   .signup-image-section {

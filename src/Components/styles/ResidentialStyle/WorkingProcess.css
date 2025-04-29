@@ -351,8 +351,9 @@
 
 @media (max-width: 425px) {
   .process-section {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 2rem;
     flex-direction: column;
+    
   }
 
   .process-container {

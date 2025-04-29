@@ -46,6 +46,7 @@ body {
 
 .steps .step {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
   padding: 20px;
   border-bottom: 1px solid #ccc;
@@ -129,15 +130,23 @@ body {
     margin-bottom: 2rem;
   }
   .begin-left h1 {
-    font-size: 50px;
+    font-size: 38px;
   }
 
   .begin-description {
     font-size: 16px;
   }
+  .begin-highlight {
+    font-size: 55px;
+    
+  }
 
   .step .begin-number {
     font-size: 16px;
+  }
+
+  .step{
+    flex-direction: row;
   }
 
   .step p {

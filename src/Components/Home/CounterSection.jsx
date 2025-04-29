@@ -53,33 +53,21 @@ const CounterSection = () => {
         <span className="counter" data-target="4960">
           0
         </span>
-        +
-        <span className="counter-label">
-          Projects
-          Completed
-        </span>
+        +<span className="counter-label">Projects Completed</span>
       </div>
       <div className="line"></div>
       <div className="counter-box">
         <span className="counter" data-target="150">
           0
         </span>
-        +
-        <span className="counter-label">
-          Happy 
-          Clients
-        </span>
+        +<span className="counter-label">Happy Clients</span>
       </div>
       <div className="line"></div>
       <div className="counter-box">
         <span className="counter" data-target="90">
           0
         </span>
-        +
-        <span className="counter-labell">
-          Highly Qualified
-          Estimators
-        </span>
+        +<span className="counter-labell">Highly Qualified Estimators</span>
       </div>
     </div>
   );

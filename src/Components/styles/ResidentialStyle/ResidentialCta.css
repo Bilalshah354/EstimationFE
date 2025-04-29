@@ -26,7 +26,7 @@
   margin-bottom: 1rem;
 }
 
-.cta-button {
+.cta-buttonn {
   background-color: #ff6600;
   color: #fff;
   border: none;
@@ -35,9 +35,11 @@
   font-size: 14px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  display: block;
+  justify-self: center;
 }
 
-.cta-button:hover {
+.cta-buttonn:hover {
   background-color: #e65c00;
 }
 
@@ -76,7 +78,7 @@
     margin-bottom: 0.8rem;
   }
 
-  .cta-button {
+  .cta-buttonn {
     background-color: #ff6600;
     color: #fff;
     border: none;
@@ -88,7 +90,7 @@
     border-radius: 4px;
   }
 
-  .cta-button:hover {
+  .cta-buttonn:hover {
     background-color: #e65c00;
   }
 

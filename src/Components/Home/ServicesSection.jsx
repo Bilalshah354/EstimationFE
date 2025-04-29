@@ -3,7 +3,6 @@ import { LuMoveUpRight } from "react-icons/lu";
 import { MdArrowRightAlt } from "react-icons/md";
 import "../styles/ServicesSection.css";
 
-
 const ServicesSection = () => {
   return (
     <>
@@ -24,7 +23,6 @@ const ServicesSection = () => {
           </h1>
           <a href="#" className="btn">
             EXPLORE SERVICES <LuMoveUpRight />
-
           </a>
         </div>
 
@@ -33,7 +31,9 @@ const ServicesSection = () => {
             <div className="service-header">
               <span className="index">01</span>
               <span className="service-title">RESIDENTIAL ESTIMATING</span>
-              <span className="arrow"><MdArrowRightAlt /></span>
+              <span className="arrow">
+                <MdArrowRightAlt />
+              </span>
             </div>
             <div className="service-details">
               <img
@@ -56,7 +56,8 @@ const ServicesSection = () => {
             <div className="service-header">
               <span className="index">02</span>
               <span className="service-title">COMMERCIAL ESTIMATING</span>
-              <span className="arrow"><LuMoveUpRight />
+              <span className="arrow">
+                <LuMoveUpRight />
               </span>
             </div>
           </div>
@@ -65,7 +66,8 @@ const ServicesSection = () => {
             <div className="service-header">
               <span className="index">03</span>
               <span className="service-title">INDUSTRIAL ESTIMATING</span>
-              <span className="arrow"><LuMoveUpRight />
+              <span className="arrow">
+                <LuMoveUpRight />
               </span>
             </div>
           </div>
