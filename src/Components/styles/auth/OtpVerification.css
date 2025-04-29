@@ -1,67 +1,177 @@
+/* <<<<<<< estimators-UI */
+/* Optional styles that might have been part of an older implementation */
+/* 
+.input-group input[type="password"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+}
+======= */
+
+/* Main container for OTP verification screen */
 .otp-container {
-    display: flex;
-    height: 100vh;
-    background-color: #fff;
-  }
-  .form-section {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
-  }
-  .form-section h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  .form-section p {
-    margin-bottom: 30px;
-    color: #666;
-    max-width: 400px;
-  }
-  .input-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .input-group label {
-    font-size: 14px;
-    color: #444;
-    margin-bottom: 8px;
-  }
-  .input-group input {
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    outline: none;
-    transition: 0.2s ease;
-  }
-  .input-group input:focus {
-    border-color: #007BFF;
-  }
-  .signup-btn {
-    padding: 14px;
-    background-color: #007BFF;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.2s ease;
-  }
-  .signup-btn:hover {
-    background-color: #0056B3;
-  }
-  .otp-image-section {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F7F7F7;
-  }
-  .otp-image-section img {
-    max-width: 80%;
-    height: auto;
-  }
+  display: flex;
+  height: 100vh;
+  background-color: #fff;
+}
+
+/* Form section on the left */
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.form-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-section p {
+  margin-bottom: 30px;
+  color: #666;
+  max-width: 400px;
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #007BFF;
+}
+
+/* Primary submit button */
+.signup-btn {
+  padding: 14px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.signup-btn:hover {
+  background-color: #0056B3;
+}
+
+/* Image section on the right */
+.otp-image-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F7F7;
+}
+
+.otp-image-section img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* ======= */
+
+/* Button group to align buttons side by side */
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Cancel button styles */
+.cancel-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #555;
+}
+
+/* Resend OTP section */
+.resend-section {
+  margin-top: 1rem;
+}
+
+.resend-btn {
+  margin-top: 10px;
+  padding: 8px 18px;
+  background-color: #0055ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resend-btn:hover {
+  background-color: #0040cc;
+}
+
+/* Password input wrapper and toggle styles (if needed) */
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-input-wrapper input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.toggle-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/* Password strength indicator */
+.strength {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.strength.weak {
+  color: red;
+}
+
+.strength.medium {
+  color: orange;
+}
+
+.strength.strong {
+  color: green;
+}
+
+/* >>>>>>> bilaldev */

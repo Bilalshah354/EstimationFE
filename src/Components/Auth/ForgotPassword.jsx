@@ -1,22 +1,42 @@
-import React, { useState } from "react";
+// <<<<<<< estimators-UI
+// import React, { useState } from "react";
+// =======
+import React, { useEffect, useState } from "react";
+// >>>>>>> bilaldev
 import "../styles/Auth/ForgotPassword.css";
-import { sendOtpToEmail }  from "../../Services/Api/authApi"; 
+import { sendOtpToEmail } from "../../Services/Api/authApi";
+import { useNavigate } from "react-router-dom";
+
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+
+  // 👇 Log every change
+  useEffect(() => {
+    console.log("Email state changed:", email);
+    console.log("Message state:", message);
+    console.log("Loading state:", loading);
+  }, [email, message, loading]);
+
   const handleReset = async (e) => {
     e.preventDefault();
     setLoading(true);
     try {
       const response = await sendOtpToEmail(email);
       setMessage(response.message);
+      console.log("OTP Sent Successfully:", response.message);
+      navigate(`/otp-verification?email=${email}`);
     } catch (err) {
-      setMessage(err.response?.data?.message || "Something went wrong");
+      const errMsg = err.response?.data?.message || "Something went wrong";
+      setMessage(errMsg);
+      console.log("Error sending OTP:", errMsg);
     } finally {
       setLoading(false);
     }
   };
+
   return (
     <>
       <div className="forgot-container">
@@ -37,7 +57,18 @@ const ForgotPassword = () => {
             <button type="submit" className="signup-btn" disabled={loading}>
               {loading ? "Sending..." : "Reset Password"}
             </button>
+// <<<<<<< estimators-UI
         
+// // =======
+//             <button
+//               type="button"
+//               className="cancel-btn"
+//               onClick={() => navigate(-1)} // 👈 Cancel goes back
+//               style={{ marginTop: "10px", backgroundColor: "#ccc", color: "#333" }}
+//             >
+//               Cancel
+//             </button>
+// >>>>>>> bilaldev
           </form>
         </div>
         <div className="forgot-image-section">
@@ -50,4 +81,5 @@ const ForgotPassword = () => {
     </>
   );
 };
+
 export default ForgotPassword;
